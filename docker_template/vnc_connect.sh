@@ -70,10 +70,10 @@ if [[ -z $(command -v "$VIEWER") ]]; then
 fi
 
 # Find the process ID of the Docker image
-FOUND_DOCKER_IMAGE_ID=$(                         \
-  docker ps                                      \
-  | grep "$DOCKER_IMAGE_NAME"                    \
-  | sed -r "s|^(\w+) +$DOCKER_IMAGE_NAME.+$|\1|" \
+FOUND_DOCKER_IMAGE_ID=$(                              \
+  docker ps                                           \
+  | grep "$DOCKER_IMAGE_NAME"                         \
+  | sed -r "s|^(\w+) +.+\b$DOCKER_IMAGE_TAG\b.+$|\1|" \
 )
 if [[ -z $FOUND_DOCKER_IMAGE_ID ]]; then
   echo "Could not find Docker image named '$DOCKER_IMAGE_NAME'!"
