@@ -1,9 +1,7 @@
 .git/
 .github/
 LICENSE
-test
-tests/cs200_glut_demo/cs200glut_demo.cpp
-tests/cs200_glut_demo/glut.h
-tests/cs200_glut_demo/glut32.dll
-tests/cs200_glut_demo/glut32.lib
-tests/cs200_glut_demo/readme.txt
+tests/cs200_glut_demo/lib/glut32.dll
+tests/cs200_glut_demo/lib/glut32.lib
+tests/cs200_glut_demo/src/cs200glut_demo.cpp
+tests/cs200_glut_demo/src/glut.h
