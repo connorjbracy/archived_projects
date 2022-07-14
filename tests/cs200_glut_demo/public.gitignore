@@ -1,4 +1,2 @@
-lib/glut32.dll
-lib/glut32.lib
 src/glut.h
 src/cs200glut_demo.cpp
