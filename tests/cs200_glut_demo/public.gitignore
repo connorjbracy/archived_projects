@@ -1,5 +1,4 @@
-cs200glut_demo.cpp
-glut32.dll
-glut32.lib
-glut.h
-readme.txt
+lib/glut32.dll
+lib/glut32.lib
+src/glut.h
+src/cs200glut_demo.cpp
