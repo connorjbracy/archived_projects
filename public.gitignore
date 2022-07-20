@@ -5,3 +5,39 @@
 LICENSE
 
 shared_lib/
+
+# Intermediate build files
+
+*.o
+*.a
+
+# Windows files
+
+*.obj
+*.lib
+*.dll
+*.exe
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio 2015 files/directories
+.vs/
+*.sln
+*.vcxproj*
+packages/
+packages.config
