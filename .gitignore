@@ -21,6 +21,7 @@ LICENSE
 [Rr]elease/
 [Rr]eleases/
 bld/
+graphics/affine_test/src/Affine.h
 graphics/affine_test/src/cs200_h1_demo.cpp
 packages.config
 packages/
