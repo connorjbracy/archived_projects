@@ -1,0 +1,14 @@
+src/Affine.h
+src/Camera.h
+src/CamManager.h
+src/Clip.h
+src/cs200final_proj.cpp
+src/DrawFrame.h
+src/FillTriangle.cpp
+src/HalfPlane.h
+src/Inverse.cpp
+src/Mesh.h
+src/Object.h
+src/QuadMesh.cpp
+src/QuadMesh.h
+src/RasterUtilities.h
