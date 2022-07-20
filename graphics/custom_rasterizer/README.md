@@ -7,16 +7,16 @@ determine pixel colors for rendering the scene.
 To run the program
 1) Download the [corresponding Docker image](https://hub.docker.com/r/connorjbracy/archived_projects_containers/tags)
    ```
-   $ docker pull connorjbracy/archived_projects_containers:custom_rasterizer
+   docker pull connorjbracy/archived_projects_containers:custom_rasterizer
    ```
 1) Run the image
    ```
    docker run connorjbracy/archived_projects_containers:custom_rasterizer
    ```
 1) Connect to the image using a VNC client
-   1) This can be done easily using the convenience script
-      [here](https://github.com/connorjbracy/archived_projects/tree/adding_some_project_files/docker_template).
-      See [project root README](https://github.com/connorjbracy/archived_projects/blob/main/README.md#Usage) for more details.
+   * This can be done easily using the convenience script
+     [here](https://github.com/connorjbracy/archived_projects/tree/adding_some_project_files/docker_template).
+     See [project root README](https://github.com/connorjbracy/archived_projects/blob/main/README.md#Usage) for more details.
 
 ## Notes:
 
@@ -31,7 +31,7 @@ seemingly run perfectly fine indefinitely.
 Looking at the error code from the crashed client, it seems to be a memory
 overflow (not necessarily a leak) given it slowly loses FPS and claiming it
 failed to flush a buffer upon crashing, although this suspicion is not
-corroberated by `htop`. Furthermore, I've looked at cache/buffer flags for both
+corroborated by `htop`. Furthermore, I've looked at cache/buffer flags for both
 the `x11vnc` server running on the Docker image and for flags for `gvncviewer`,
 but neither seem to do anything.
 
