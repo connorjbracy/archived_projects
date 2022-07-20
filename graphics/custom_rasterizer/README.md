@@ -31,7 +31,7 @@ seemingly run perfectly fine indefinitely.
 Looking at the error code from the crashed client, it seems to be a memory
 overflow (not necessarily a leak) given it slowly loses FPS and claiming it
 failed to flush a buffer upon crashing, although this suspicion is not
-corroberated by `htop`. Furthermore, I've looked at cache/buffer flags for both
+corroborated by `htop`. Furthermore, I've looked at cache/buffer flags for both
 the `x11vnc` server running on the Docker image and for flags for `gvncviewer`,
 but neither seem to do anything.
 
