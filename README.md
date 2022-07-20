@@ -32,3 +32,11 @@ fullname)
 
 For more details on a given project, please refer to the README in its
 directory.
+
+# Status
+
+There are still many more project to be added, but doing so takes some time as
+reviving things from the dead takes time. The projects were often written in
+Visual Studio projects (and the Docker images run Ubuntu) and I'll be curating
+files, writing briefs, etc. so there will be a continual rollout of projects
+rather than uploading them all in one batch.
